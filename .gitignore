@@ -1,0 +1,54 @@
+# Docker
+*.env
+.env
+Dockerfile.local
+
+# Local development
+*.log
+tmp/
+temp/
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+
+# Python (falls lokal getestet)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+dist/
+build/
+
+# Local Docker artifacts
+*.docker.tar
+
+# Local config
+config/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage
+.coverage
+*.cover
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
