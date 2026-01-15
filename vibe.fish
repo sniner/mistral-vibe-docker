@@ -8,5 +8,6 @@ function vibe
         -v (pwd):/app \
         -v $HOME/.config/vibe:/home/vibe/.vibe \
         -w /app \
+        --network host \
         ghcr.io/sniner/mistral-vibe-docker:latest $argv
 end
