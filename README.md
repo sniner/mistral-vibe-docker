@@ -1,5 +1,16 @@
 # Mistral Vibe Docker Container
 
+> [!WARNING]
+> **This Docker image is no longer my recommended way to run Mistral Vibe.**
+>
+> While Mistral Vibe works ok-ish in this container, the available toolset inside the image is limited and using the container is more cumbersome than the approach I now prefer:
+>
+> ```sh
+> uv tool install mistral-vibe
+> ```
+>
+> Run this once and you have `vibe` available as a direct executable command — no container overhead, no polluting your system with dozens of Python packages. **This image will most likely not receive any further updates.**
+
 This project provides a Docker container for running Mistral Vibe in an isolated environment, avoiding Python package conflicts on your host system.
 
 ## Purpose
